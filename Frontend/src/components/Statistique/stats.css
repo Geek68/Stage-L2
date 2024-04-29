@@ -1,0 +1,61 @@
+.StatsParents
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 60%;
+    background-color: var(--bleutrans);
+    margin-top:18px;
+    margin-left: 15rem;
+    box-shadow: 0px 0px 10px var(--bleu);
+}
+.StatsColonne
+{
+ display: grid;
+ grid-template-columns: repeat(2,1fr);
+ position: relative;
+}
+.StatsColonne .mdi
+{
+    color: var(--bleu);
+    font-size: 100px;
+    /* border: 2px solid red; */
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 5px;
+}
+.StatsColonne span
+{
+    margin-top: 20px;
+    color: var(--bleu);
+}
+.statsColone-title
+{
+    margin-top: -15px;
+    margin-left: -15px;
+    font-size: 15px;
+    
+}
+.StatsColonne:nth-child(2)::before
+{
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 100%;
+    background: var(--bleu);
+}
+.StatsColonne:nth-child(3)::before
+{
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 100%;
+    background: var(--bleu);
+}
+.StatsColonne:nth-child(4)::before
+{
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 100%;
+    background: var(--bleu);
+}

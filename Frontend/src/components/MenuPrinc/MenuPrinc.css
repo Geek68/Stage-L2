@@ -1,0 +1,137 @@
+.MenuPrincParent
+{
+    display: grid;
+    height: 100vh;
+    place-content: center;
+}
+.MenuPrincHeader
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* border: 2px solid red; */
+    width: 80rem;
+    padding: 20px;
+}
+.MenuPrincTitle
+{
+    font-size: 50px;
+    color: var(--orange);
+    
+}
+
+.MenuPrincBtn
+{
+    background: none;
+    border: none;
+    color:var(--bleu);
+    padding: 13px;
+    margin-top: 40px;
+    width: 35%;
+    font-size: 20px;
+    height: 40%;
+    position: relative;
+    display: flex;
+}
+.MenuPrincBtn .mdi
+{
+    margin-left: 28px;
+}
+.MenuPrincBtn::after
+{
+    content:'';
+    width: 100%;
+    transform-origin: left;
+    transform: scaleX(0);
+    height: 2px;
+    right: 0; top: 0;
+    background: var(--bleu);
+    position: absolute;
+     transition: transform 0.4s; 
+}
+.MenuPrincBtn:hover:after
+{
+    transform: scaleX(1);
+    transform-origin: right;
+}
+.MenuPrincBtn::before
+{
+    content:'';
+    width: 100%;
+    height: 1.5px;
+    left: 0; bottom: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    background: var(--bleu);
+    position: absolute;
+    transition: transform 0.4s; 
+}
+.MenuPrincBtn:hover:before
+{
+     transform: scaleX(1);
+    transform-origin: left;
+}
+    
+.MenuPrincNav1
+{
+    cursor: pointer;
+    
+    font-size: 60px;
+   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.MenuPrincNav1 p
+{
+width: 41%;
+}
+.MenuPrincNav2
+{
+    display: grid;
+    cursor: pointer;
+    grid-template-columns: repeat(3,1fr);
+    font-size: 20px;
+}
+.MenuPrincNav2 p
+{
+    width: 43%;
+}
+.MenuPrincParent .mdi
+{
+    color:var(--orange);
+}
+.MenuPrincNav1 p:hover,.MenuPrincNav2 p:hover
+{
+ animation: animate  2s linear infinite;
+}
+@keyframes animate
+ {
+    0%{
+        transform: scale(1);
+        transition: transform 1s;
+        
+    }
+    50%{
+        transform: scale(0.9);
+         transition: transform 1s;
+        
+    }
+    100%
+    {
+        transform: scale(1);
+        transition: transform 1s;
+    }
+}
+.NavLink
+{
+    text-decoration: none;
+     color: var(--bleu);
+}
+.MenuPrinc
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.MenuPrinc img
+{
+ position: absolute;
+ left: 20px;
+}

@@ -1,0 +1,58 @@
+table
+{ 
+    width: 90%;
+    
+   border-collapse: collapse;
+   display: flex;
+   flex-direction: column;
+}
+.TableVoitHeader
+{
+    background: var(--orange);
+    padding: 5px;
+    font-size: 20px;
+    color: var(--blanc);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+tbody
+{
+    margin-top: -29px;
+    cursor: pointer;
+}
+.TableVoitBody
+{
+ display: grid;
+ grid-template-columns: repeat(4,1fr);
+ margin: 30px 5px;
+ text-align: center;
+ 
+}
+.TableVoitligne
+{
+ display: grid;
+ grid-template-columns: repeat(4,1fr);
+ margin: 30px 5px;
+ text-align: center;
+ 
+}
+.TableVoitBody td
+{
+    background: var(--bleutrans);
+    font-size: 15px;
+    color: var(--bleu);
+    padding: 10px 0;
+}
+.TableVoitligne td 
+{
+     background: var(--blanc);
+    font-size: 15px;
+    color: var(--bleu);
+    padding: 10px 0;
+}
+.VoitureDiv1
+{
+    position: absolute;
+    top:17rem;left: 15rem;
+}

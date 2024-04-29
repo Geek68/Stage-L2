@@ -1,0 +1,199 @@
+/*A propos voiture */
+.ApvoitParent
+{
+   width: 43%;
+   height: 22rem;
+   padding: 5px;
+   position: relative;
+   font-size: 13px;
+   background: var(--bleutrans);
+   box-shadow: 0px 0px 10px var(--bleu);
+}
+.ApvoitDonn
+{
+    line-height: 17px;
+    position: absolute;
+    top: 0; right: 20pt;
+}
+.apvoitImage
+{
+    width: 40%;
+    height: 30%;
+    display: inline;
+}
+.ApvoitTitle
+{
+    color: var(--blanc);
+
+
+}
+.ApvoitTitle>p
+{
+    margin-left: 50px;
+    margin-top: 0px;
+}
+ .ApvoitContenu
+{
+  
+    display: grid;
+    grid-template-columns: repeat(2,0.3fr);
+    gap: 5px;
+    text-align: justify;
+    color:  var(--bleu);
+  
+}
+.ApvoitContenu .mdi
+{
+    font-size: 25px;
+    margin-left:50px;
+    margin-top: 25Px;
+}
+/*A propos voiture */
+
+
+/* A propos de Chauffeur*/
+.ApChauffeurParent
+{
+    width: 100%;
+    background: var(--bleutrans);
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    box-shadow: 0px 0px 10px var(--bleu);
+}
+.ImgChf
+{
+    width: 60%;
+    height:50%;
+    shape-outside: circle();
+    border-radius: 50%;
+}
+.ApChauffeurPhase
+{
+    text-align: left;
+    line-height: 22px;
+}
+.ApChauffeurTitle
+{
+    font-size: 20px;
+    color: var(--blanc);
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ApChauffeurPhase p
+{
+    color: var(--bleu);
+ 
+}
+.ApChauffeurPara2
+{
+    margin-left: -50pt;
+}
+.ApChauffeurPara1
+{
+    margin-left: -30px;
+}
+.ApChauffeurPara3
+{
+    margin-left: -80pt;
+}
+.ApChfSpan
+{
+    margin-left: 8px;
+    margin-top: -30pt;
+}
+/* A propos de Chauffeur*/
+
+/* A propos de l'Etat*/
+.ApEtatParent
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: var(--bleutrans);
+    box-shadow: 0px 0px 10px var(--bleu);
+    margin-top: -20rem;
+}
+.ApEtatTitle
+{
+    text-align: center;
+   
+    color: var(--blanc);
+    position: relative;
+   
+   
+}
+.ApEtatTitle::after
+{
+    content: '';
+    position: absolute;
+    left: 60px; top: 35px;
+    width: 50%;
+    height: 10%;
+    background: var(--blanc);
+}
+.ApEtatContenue
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    color: var(--bleu);
+    position: absolute;
+    top:35px;
+}
+.ApEtatContenue i
+{
+    font-size: 30px;
+    margin-left: 20px;
+}
+.ApEtatContenue p 
+{
+    font-size: 25px;
+    margin-top: 5px;
+}
+/* A propos de l'Etat*/
+
+/*A propos du Service*/
+.ApServiceParent
+{
+    width: 100%;
+    background: var(--bleutrans);
+    padding: 10px;
+    box-shadow: 0px 0px 10px var(--bleu);
+}
+.ApServiceMoto
+{
+    width: 20%;
+    height: 20%;
+    margin-left: 5rem;
+}
+.ApServiceTitle
+{
+    text-align: center;
+    font-size: 25px;
+    color: var(--blanc);
+    margin-top: 2px;
+}
+.ApServiceContenu
+{
+    Color: var(--bleu);
+    font-size: 16px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+}
+.ApServiceRAD
+{
+    display: grid;
+    line-height: 5px;
+}
+.ApServiceContenu .mdi
+{
+    font-size: 25px;
+    margin-top: 15px;
+}
+.ApServiceContenu p
+{
+    margin-left: -50pt;
+}
+/*A propos du Service*/

@@ -1,0 +1,51 @@
+.ChauffBtnParent
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20pt;
+    margin-left: 1.5pt;
+}
+.ChauffBtnParent button:nth-child(1)
+{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 20px;
+     padding: 15px  15px;
+    border: none;
+    background: var(--bleutrans);
+    color: var(--bleu);
+    border-radius: 10px;
+    border-bottom: 5px solid var(--bleu);
+    transition: all .1s;
+    -webkit-transition: all .1s;
+}
+
+.ChauffBtnParent button:nth-child(1):active
+{
+    transform: translateY(5px);
+    -webkit-transition:translateY(5px);
+    border-bottom: 1px solid var(--bleu)
+}
+
+
+.ChauffBtnParent button:nth-child(2)
+{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 20px;
+     padding: 15px  15px;
+    border: none;
+    background: var(--orangetrans);
+    color: var(--blanc);
+    border-radius: 10px;
+   border-bottom: 5px solid var(--blanc);
+    transition: all .1s;
+    -webkit-transition: all .1s;
+}
+
+.ChauffBtnParent button:nth-child(2):active
+{
+    transform: translateY(5px);
+    -webkit-transition:translateY(5px);
+    border-bottom: 1px solid var(--blanc)
+}

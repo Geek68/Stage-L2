@@ -1,0 +1,108 @@
+table
+{ 
+    width: 90%;
+   border-collapse: collapse;
+   display: flex;
+   flex-direction: column;
+   margin-top: 30px;
+}
+.TableRepareHeader
+{
+    background: var(--orange);
+    padding: 5px;
+    font-size: 15px;
+    color: var(--blanc);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+tbody
+{
+    margin-top: -29px;
+    cursor: pointer;
+}
+.TableRepareBody
+{
+ display: grid;
+ grid-template-columns: repeat(5,1fr);
+ margin: 30px 5px;
+ text-align: center;
+ 
+}
+.TableRepareligne
+{
+ display: grid;
+ grid-template-columns: repeat(5,1fr);
+ margin: 30px 5px;
+ text-align: center;
+ 
+}
+.TableRepareBody td
+{
+    background: var(--bleutrans);
+    font-size: 15px;
+    color: var(--bleu);
+    padding: 10px 8px;
+}
+.TableRepareligne td 
+{
+     background: var(--blanc);
+    font-size: 15px;
+    color: var(--bleu);
+    padding: 10px 8px;
+}
+.RepareDiv1
+{
+    position: absolute;
+    top:17rem;left: 15rem;
+}
+.RepareIcon
+{
+    font-size: 50pt;
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 100px;
+    color:var(--blanc);
+    top:25.5rem ; left:1pt;
+}
+.niveauParent
+{
+    border: 2px solid var(--bleu);
+     border-radius: 8px ;
+}
+.niveau1
+{
+    height: 5px;
+    width: 20%;
+    background: var(--orange);
+    border-radius: 8px ;
+}
+.niveau2
+{
+    height: 5px;
+    width: 40%;
+    background: var(--orange);
+    border-radius: 8px ;
+}
+.niveau3
+{
+    height: 5px;
+    width: 60%;
+    background: var(--orange);
+    border-radius: 8px ;
+}
+.niveau4
+{
+    height: 5px;
+    width: 80%;
+    background: var(--orange);
+    border-radius: 8px ;
+}
+.niveau5
+{
+    height: 5px;
+    width: 100%;
+    background: var(--orange);
+    border-radius: 8px ;
+}

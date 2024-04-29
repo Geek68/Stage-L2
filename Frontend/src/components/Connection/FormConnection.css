@@ -1,0 +1,27 @@
+.ConnectionParent
+{
+    border: 3px solid red;
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+.ConnectionBody
+{
+    border: 2px solid green;
+    width: 20rem;
+}
+.ConnectionForm
+{
+    border: 2px solid blue;
+    width: 100%;
+}
+.ConnectionChamp
+{
+    width: 100%;
+    border: 2px solid red;
+}
+.ConnectionInput
+{
+    width: 100%;
+}

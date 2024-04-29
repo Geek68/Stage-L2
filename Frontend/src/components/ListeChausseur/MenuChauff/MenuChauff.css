@@ -1,0 +1,71 @@
+.MenuChauffMenu
+{
+  top : 0;left: 0;
+  height: 100vh;
+  width: 28vh;
+  position: absolute;
+  top : 0; left: 0;
+  background-color : var(--orange);
+  border-top-right-radius:  100px;
+}
+.MenuChauffTitre
+{
+  margin :55px 0;
+  transform: translateX(-10px)
+}
+.MenuChauffTitre1
+{
+    text-align: center;
+    color: var(--blanc);
+    font-family:  sans-serif;
+    font-size: 30px;
+}
+.MenuChauffTitre2
+{
+    text-align: center;
+    color: var(--blanc);
+    font-family:  sans-serif;
+    font-size: 20px
+}
+.MenuChauffBoutton
+{
+  margin: 3em 0;
+  display: flex;
+  flex-direction: column;
+}
+.MenuChauffBoutton button {
+  background: none;
+  border: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+   padding: 10px;
+  color: white;
+}
+.MenuChaufLink
+{
+  margin: 20px 0;
+  background-color: var(--orangetrans);
+  text-align: center;
+  border: none;
+  border-bottom:  5px solid var(--gris);
+  transition: all .05s;
+  -webkit-transition: all .05s;
+}
+.MenuChaufLink:active{
+  transform: translateY(5px);
+  -webkit-transform: translateY(5px);
+  border-bottom:  1px solid var(--gris);
+}
+.MenuChauffSlide
+{
+  height: 10rem;
+  width: 25vh;
+  position: absolute;
+  bottom: 20PX; left: 10px;
+  /* display: flex;
+  overflow: hidden; */
+}
+.MenuChauffSlideImage
+{
+  height: 100%;
+}

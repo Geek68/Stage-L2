@@ -1,0 +1,130 @@
+.ModifVehiculeRAD
+{
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    place-content: center;
+   background: rgba(34,152,249,0.8);
+}
+.ModifVehiculeParent
+{
+
+    padding: 20px;
+    display: flex;
+    margin: 30pt 0;
+    flex-direction: column;
+    border-radius: 25px;
+    width: 25REM;
+   background: rgba(255,255, 255, 0.9);
+    position: relative;
+    
+}
+.ModifVehiculeContenu
+{
+    margin: 13px 0;
+    text-align: center;
+}
+
+.ModifVehiculeTitle h1
+{
+    color: var(--orange);
+    text-align: center;
+    margin-top: -10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.ModifVehiculeIcon
+{
+    color: var(--orange);
+    font-size: 18px; 
+   display: flex;
+   justify-content: center;
+   margin-top: -25px;
+   margin-left: -30px;
+}
+.ModifVehiculeIcon .mdi
+{
+    margin-left: 10px;
+}
+.ModifParentInput
+{
+    width: 65%;
+    font-size: 16px;
+    padding: 8px 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--bleu);
+    border-radius: 50PX;
+    border: 2px solid var(--bleu);
+    box-shadow: 10px 10px 2px var(--bleutrans);
+}
+/* .formParentInput::placeholder
+{
+ color: var(--bleu);
+} */
+.ModifVehiculeContenu .mdi
+{
+    color: var(--bleu); 
+    transform: translate(16rem,11px);
+    position: absolute;
+   
+}
+.ModifVehiculeBtn
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-content: center;
+    text-align: center;
+    margin-top: 15px;
+}
+.ModifVehiculeBoutton
+{
+    background: none;
+    border: none;
+    display: flex;
+}
+.ModifVehiculeBoutton i 
+{
+    margin-right: 3px;
+}
+.ModifVehiculeBoutton:nth-child(1)
+{
+    color: var(--bleu);
+    font-size: 25px;
+    margin-left: 60pt;
+    font-family: 'Courier New', Courier, monospace;
+}
+.ModifVehiculeBoutton:nth-child(2)
+{
+    color: var(--orange);
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.FormVoitureModifBtn
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-content: center;
+    text-align: center;
+}
+.FormVoitureModifBoutton
+{
+    background: none;
+    border: none;
+    display: flex;
+}
+.FormVoitureModifBoutton i 
+{
+    margin-right: 3px;
+}
+.FormVoitureModifBoutton:nth-child(1)
+{
+    color: var(--bleu);
+    font-size: 25px;
+    margin-left: 60pt;
+    font-family: 'Courier New', Courier, monospace;
+}
+.FormVoitureModifBoutton:nth-child(2)
+{
+    color: var(--orange);
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}

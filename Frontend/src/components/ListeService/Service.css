@@ -1,0 +1,60 @@
+.ServiceBody
+{
+    background: var(--gris);
+    height: 100vh;
+    width: 100vw;
+    padding: 20px 0;
+    overflow: hidden;
+}
+.ServiceTitle
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30pt;
+    margin-left: 100pt;
+    font-family: Rockwell;
+    color: var(--orange);
+    text-shadow: 3px 3px 5px var(--bleu);
+}
+.ServicePointingRight
+{
+    margin-top: 15px;
+    animation: animPointRight  3s linear infinite;
+}
+@keyframes animPointRight {
+    0%{
+        transform: translateX(0)
+    }
+    50%{
+        transform: translateX(-10px);
+    }
+    100%{
+        transform: translateX(0)
+    }
+}
+
+.ServicePointingLeft
+{
+    margin-top: 15px;
+     animation: animPointLeft  3s linear infinite;
+}
+@keyframes animPointLeft {
+    0%{
+        transform: translateX(0)
+    }
+    50%{
+        transform: translateX(10px);
+    }
+    100%{
+        transform: translateX(0)
+    }
+}
+.ServiceContenu
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    margin-left: 200pt;
+    
+}

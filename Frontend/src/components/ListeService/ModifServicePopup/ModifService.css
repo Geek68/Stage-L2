@@ -1,0 +1,72 @@
+.ModifServiceParent
+{
+    background: rgba(34,152,249,0.8);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ModifServiceContainer
+{
+    background: rgba(255,255, 255, 0.9);
+    text-align: center;
+    padding: 20px 10px;
+    border-radius: 20px;
+}
+.ModifServiceContainer h1
+{
+    color: var(--orange);
+   
+}
+.FormServiceModifContenu
+{
+     margin: 50px 0;
+    text-align: center;
+}
+.FormServiceModifInput
+{
+    width: 65%;
+    font-size: 16px;
+    padding: 8px 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--bleu);
+    border-radius: 50PX;
+    border: 2px solid var(--bleu);
+   box-shadow: 10px 10px 2px var(--bleutrans);
+}
+.FormServiceModifContenu .mdi
+{
+    color: var(--bleu); 
+   transform: translate(13rem,11px);
+    position: absolute;
+}
+.FormServiceModifBtn
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-content: center;
+    text-align: center;
+}
+.FormServiceModifBoutton
+{
+    background: none;
+    border: none;
+    display: flex;
+}
+.FormServiceModifBoutton i 
+{
+    margin-right: 3px;
+}
+.FormServiceModifBoutton:nth-child(1)
+{
+    color: var(--bleu);
+    font-size: 25px;
+    margin-left: 60pt;
+    font-family: 'Courier New', Courier, monospace;
+}
+.FormServiceModifBoutton:nth-child(2)
+{
+    color: var(--orange);
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}

@@ -1,0 +1,42 @@
+.deleteChauffParent
+{
+    display: grid;
+    height: 100vh;
+    place-content: Center;
+    background: transparent;
+}
+.deleteChauffRAD
+{
+    background: var(--orangetrans);
+    padding: 30px;
+    border-radius: 20px;
+}
+.deleteChauffTitle
+{
+    text-align: center;
+    color: var(--blanc);
+}
+.deleteChauffParentBtn
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deleteChauffBoutton
+{
+    background: none;
+    border: none;
+    margin: 0 20px;
+    font-size: 16px;
+    display: flex;
+    font-family: Rockwell;
+    
+}
+.deleteChauffBoutton:nth-child(1)
+{
+    color:var(--bleu)
+}
+.deleteChauffBoutton:nth-child(2)
+{
+    color:red;
+}

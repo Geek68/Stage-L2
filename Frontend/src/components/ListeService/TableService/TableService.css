@@ -1,0 +1,65 @@
+.TableServiceParent
+{ 
+   
+   border-collapse: collapse;
+   display: flex;
+   flex-direction: column;
+}
+.TableServiceHeader
+{
+    background: var(--orange);
+    padding: 5px;
+    font-size: 20px;
+    color: var(--blanc);
+    font-family: Rockwell;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+tbody
+{
+    cursor: pointer;
+}
+.TableServiceBody
+{
+ display: grid;
+ grid-template-columns: repeat(2,1fr);
+ margin: 30px 5px;
+ text-align: center;
+ cursor: pointer;
+ 
+}
+.TableServiceligne
+{
+ display: grid;
+ grid-template-columns: repeat(2,1fr);
+ margin: 30px 5px;
+ text-align: center;
+ 
+}
+.TableServiceBody td
+{
+    background: var(--bleutrans);
+    font-size: 15px;
+    color: var(--bleu);
+    padding: 10px 0;
+}
+.TableServiceligne td 
+{
+     background: var(--blanc);
+    font-size: 15px;
+    color: var(--bleu);
+    padding: 10px 0;
+}
+.ServiceIcon
+{
+    font-size: 50pt;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left:5rem;
+    margin-top:-25px;
+}
+.ServiceIcon i
+{
+    color:var(--blanc)
+}
+

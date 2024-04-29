@@ -1,0 +1,49 @@
+.VoitureBody
+{
+    background: var(--gris);
+    height: 100vh;
+    width:auto;
+    padding: 20px 0;
+}
+.VoitureIcon
+{
+    font-size: 50pt;
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 100px;
+    top:25.5rem ; left:10rem
+}
+.VoitureIcon i
+{
+    color:var(--blanc)
+}
+
+ .VoitureDiv2
+{
+    margin-top: 5px;
+    margin-left:-30px;
+    
+    
+}
+.VoitureDiv3
+{
+    height: 80vh;
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:6.5rem;left:73.5rem;
+}
+.VoitureDiv3 div
+{
+   margin: 3px 0
+} 
+.VoitureContenu
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* width: 80%; */
+    margin-left:15rem;
+    margin-top:10pt;
+}

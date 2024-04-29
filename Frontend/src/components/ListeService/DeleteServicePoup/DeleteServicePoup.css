@@ -1,0 +1,42 @@
+.deleteServiceParent
+{
+    display: grid;
+    height: 100vh;
+    place-content: Center;
+    background: transparent;
+}
+.deleteServiceRAD
+{
+    background: var(--orangetrans);
+    padding: 30px;
+    border-radius: 20px;
+}
+.deleteServiceTitle
+{
+    text-align: center;
+    color: var(--blanc);
+}
+.deleteServiceParentBtn
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deleteServiceBoutton
+{
+    background: none;
+    border: none;
+    margin: 0 20px;
+    font-size: 16px;
+    display: flex;
+    font-family: Rockwell;
+    
+}
+.deleteServiceBoutton:nth-child(1)
+{
+    color:var(--bleu)
+}
+.deleteServiceBoutton:nth-child(2)
+{
+    color:red;
+}

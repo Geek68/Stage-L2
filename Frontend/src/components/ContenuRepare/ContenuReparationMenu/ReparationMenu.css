@@ -1,0 +1,61 @@
+.MenuReparatioRAD
+{
+    background: var(--orange);
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    overflow: hidden;
+    margin-left:10px ;
+}
+.MenuReparatioRAD h1
+{
+    color: var(--bleu);
+    text-align: center;
+    margin-left:30px ;
+    font-family:'Courier New', Courier, monospace;
+}
+.MenuReparationBoutton
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: -20px;
+}
+.MenuReparationLink
+{
+    margin: 10px 0;
+}
+.MenuReparationLink button
+{
+    font-size: 20px;
+    background: var(--orangetrans);
+    border:none;
+    color:var(--blanc);
+    width: 100%;
+    text-align: center;
+    border-bottom: 3px solid var(--gris);
+}
+.MenuReparationNext
+{
+   font-size: 60px;
+
+   color: var(--orange);
+   position: absolute;
+   top:90px; left:-50px;
+}
+.MenuReparationNext:active
+{
+ animation: anime  0.5s linear infinite;
+}
+@keyframes anime {
+    0%
+    {
+        transform: translateX(0);
+    }
+    50%
+    {
+        transform: translateX(20pt);
+    }
+    100%
+    {
+        transform: translateX(0);
+    }
+}

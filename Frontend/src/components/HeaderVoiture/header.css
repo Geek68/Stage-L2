@@ -1,0 +1,67 @@
+.HeaderParent
+{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 10px;
+    background: var(--blanc);
+    border-radius: 20px;
+    width: 75%;
+    position: relative;
+    margin-top: -10px;
+    margin-left: 17.5em;
+
+}
+.HeaderImg
+{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 0;
+    top: 0;
+     margin-top: 15px;
+}
+.HeaderImg button
+{
+    border: none;
+    background: none;
+    cursor: pointer;
+   
+}
+.logo
+{
+    width: 70px;
+    height: 60px;
+    margin: 0 40px;
+}
+.mdi-plus-circle-outline
+{
+    font-size: 50px;
+    color: var(--bleu);
+   
+}
+.HeaderForm
+{
+    margin-left: 30px;
+}
+.Headersearch::placeholder
+{
+    color: var(--bleu);
+}
+.Headersearch
+{
+    font-size: 20px;
+    color: var(--bleu);
+    border: none;
+    outline: none;
+    background: var(--gris);
+    width: 23rem;
+    padding: 10px 55px;
+    border-radius: 100px;
+}
+.mdi-magnify
+{
+    font-size: 20pt;
+    position: absolute;
+    transform: translate(25px,8px);
+    color: var(--blanc);
+}

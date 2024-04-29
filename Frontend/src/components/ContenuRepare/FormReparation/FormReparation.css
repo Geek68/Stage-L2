@@ -1,0 +1,118 @@
+.FormReparationRAD
+{
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    place-content: center;
+    background: var(--bleu);
+}
+.FormReparationParent
+{
+
+    padding: 20px;
+    display: flex;
+    margin: 30pt 0;
+    flex-direction: column;
+    border-radius: 25px;
+    width: 25REM;
+    background: var(--blanc);
+    position: relative;
+     border:3px solid var(--bleu);
+}
+.FormReparationContenu
+{
+    margin: 13px 0;
+    text-align: center;
+}
+
+.FormReparationTitle h1
+{
+    color: var(--orange);
+    text-align: center;
+    font-size: 25px;
+    margin-top: -10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.FormReparationIcon
+{
+    color: var(--orange);
+    font-size: 18px; 
+   display: flex;
+   justify-content: center;
+   margin-top: -18px;
+   margin-left: -30px;
+}
+.FormReparationIcon .mdi
+{
+    margin-left: 10px;
+}
+.formReparationInput
+{
+    width: 65%;
+    font-size: 16px;
+    padding: 8px 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--bleu);
+    border-radius: 50PX;
+    border: 2px solid var(--bleu);
+    box-shadow: 10px 10px 2px var(--bleutrans);
+}
+.formReparationTextarea 
+{
+    width: 65%;
+    font-size: 16px;
+    padding: 8px 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--bleu);
+    border-radius: 50PX;
+    border: 2px solid var(--bleu);
+    box-shadow: 10px 10px 2px var(--bleutrans);
+}
+.formReparationTextarea::placeholder
+{
+  margin-top: 30pt;
+}
+/* .formParentInput::placeholder
+{
+ color: var(--bleu);
+} */
+.FormReparationContenu .mdi
+{
+    color: var(--bleu); 
+    transform: translate(16rem,11px);
+    position: absolute;
+   
+}
+.formReperationboutton
+{
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         justify-content: center;
+         gap: .99rem;
+}
+.formReparationBtn
+{
+    border: 5px solid var(--blanc);
+    background: var(--orange);
+    color:white;
+    font-size: 18px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+.formReparationBtn:active
+{
+    border: 5px solid var(--blanc);
+}
+.formReparationBtn2
+{
+    
+    border: 2px solid var(--orange);
+    color:var(--orange);
+    background: var(--blanc);
+    font-size: 18px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 10px 10px;
+    border-radius: 10px;
+}

@@ -1,0 +1,72 @@
+.ModifChauffParent
+{
+    background: rgba(34,152,249,0.8);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ModifChaufContainer
+{
+    background: rgba(255,255, 255, 0.9);
+    text-align: center;
+    padding: 20px 10px;
+    border-radius: 20px;
+}
+.ModifChaufContainer h1
+{
+    color: var(--orange);
+   
+}
+.FormChauffModifContenu
+{
+     margin: 50px 0;
+    text-align: center;
+}
+.FormChaufModifInput
+{
+    width: 65%;
+    font-size: 16px;
+    padding: 8px 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--bleu);
+    border-radius: 50PX;
+    border: 2px solid var(--bleu);
+   box-shadow: 10px 10px 2px var(--bleutrans);
+}
+.FormChauffModifContenu .mdi
+{
+    color: var(--bleu); 
+   transform: translate(13rem,11px);
+    position: absolute;
+}
+.FormChaufModifBtn
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-content: center;
+    text-align: center;
+}
+.FormChaufModifBoutton
+{
+    background: none;
+    border: none;
+    display: flex;
+}
+.FormChaufModifBoutton i 
+{
+    margin-right: 3px;
+}
+.FormChaufModifBoutton:nth-child(1)
+{
+    color: var(--bleu);
+    font-size: 25px;
+    margin-left: 60pt;
+    font-family: 'Courier New', Courier, monospace;
+}
+.FormChaufModifBoutton:nth-child(2)
+{
+    color: var(--orange);
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}

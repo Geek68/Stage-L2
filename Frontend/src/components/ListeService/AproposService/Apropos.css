@@ -1,0 +1,103 @@
+/*A propos voiture */
+.ServiceApvoitParent
+{
+   width: 85%;
+   height: 23rem;
+   padding: 5px;
+   position: relative;
+   font-size: 13px;
+   background: var(--bleutrans);
+   box-shadow: 0px 0px 10px var(--blanc);
+}
+.ServiceApvoitDonn
+{
+    line-height: 20px;
+    position: absolute;
+    top: 0; right: 20pt;
+}
+.ServiceapvoitImage
+{
+    width: 40%;
+    height: 30%;
+    display: inline;
+}
+.ServiceApvoitTitle
+{
+    color: var(--orange);
+}
+.ServiceApvoitTitle>p
+{
+    margin-left: 50px;
+    margin-top: 0px;
+}
+ .ServiceApvoitContenu
+{
+  
+    display: grid;
+    grid-template-columns: repeat(2,0.3fr);
+    gap: 5px;
+    text-align: justify;
+    color: var(--bleu);
+  
+}
+.ServiceApvoitContenu .mdi
+{
+    font-size: 25px;
+    margin-left:50px;
+    margin-top: 25Px;
+}
+/*A propos voiture */
+
+/* A propos de Chauffeur*/
+.ApServiceChauffeurParent
+{
+    width: 80%;
+    background: var(--bleutrans);
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    box-shadow: 0px 0px 10px var(--blanc);
+}
+.ImgChf
+{
+    width: 60%;
+    height:50%;
+    shape-outside: circle();
+    border-radius: 50%;
+}
+.ApServiceChauffeurPhase
+{
+    text-align: left;
+    line-height: 22px;
+}
+.ApServiceChauffeurTitle
+{
+    font-size: 20px;
+    color: var(--orange);
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ApServiceChauffeurPhase p
+{
+    color: var(--bleu);
+ 
+}
+.ApServiceChauffeurPara2
+{
+    margin-left: -50pt;
+}
+.ApServiceChauffeurPara1
+{
+    margin-left: -30px;
+}
+.ApServiceChauffeurPara3
+{
+    margin-left: -80pt;
+}
+.ApServiceChauffeurSpan
+{
+    margin-left: 8px;
+    margin-top: -30pt;
+}
+/* A propos de Chauffeur*/

@@ -1,0 +1,61 @@
+.OrgPopUpParent
+{
+    display: grid;
+    height: 100vh;
+    place-content: center;
+    background-color: transparent;
+}
+.OrgPopUpContenu
+{
+    background: var(--blanc);
+    position:relative;
+    width: 32rem;
+    padding: 20px;
+}
+.OrgPopUpTitle
+{
+    
+}
+.OrgPopUpTitleH1
+{
+    color: var(--orange);
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-top: -15px;
+}
+.OrgPopUpContenu i
+{
+   position: absolute;
+   top:0;right: 0;
+   font-size: 25px;
+   color: var(--orange);
+}
+.OrgPopIpBoutton
+{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.OrgPopIpBoutton button
+{
+    border: none;
+    background: none;
+    border: 2px solid var(--bleu);
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 10px;
+    color:var(--bleu);
+    cursor: pointer;
+    position: relative;
+    transition: 0.3s;
+    box-shadow: 3px 3px 5px var(--bleu);
+}
+.OrgPopUpSpan
+{
+    color: var(--bleu);
+}
+.OrgPopIpBoutton button:active
+{
+    transform: translate(8px,8px);
+}

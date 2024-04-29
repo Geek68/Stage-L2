@@ -1,0 +1,67 @@
+.TableChaufParent
+{ 
+    width: 150%;
+   border-collapse: collapse;
+   display: flex;
+   flex-direction: column;
+}
+.TableChaufHeader
+{
+    background: var(--orange);
+    padding: 5px;
+    font-size: 20px;
+    color: var(--blanc);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+tbody
+{
+    margin-top: -29px;
+    cursor: pointer;
+}
+.TableChauffBody
+{
+ display: grid;
+ grid-template-columns: repeat(4,1fr);
+ margin: 30px 5px;
+ text-align: center;
+ 
+}
+.TableChauffligne
+{
+ display: grid;
+ grid-template-columns: repeat(4,1fr);
+ margin: 30px 5px;
+ text-align: center;
+ 
+}
+.TableChauffBody td
+{
+    background: var(--bleutrans);
+    font-size: 15px;
+    color: var(--bleu);
+    padding: 10px 0;
+}
+.TableChauffligne td 
+{
+     background: var(--blanc);
+    font-size: 15px;
+    color: var(--bleu);
+    padding: 10px 0;
+}
+.ChauffeurIcon
+{
+    font-size: 50pt;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left:10rem;
+}
+.ChauffeurIcon i
+{
+    color:var(--blanc)
+}
+.ChauffeurMycontext
+{
+    display: none;
+}

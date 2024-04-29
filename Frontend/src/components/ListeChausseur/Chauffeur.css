@@ -1,0 +1,33 @@
+.ChauffeurBody
+{
+    background: var(--gris);
+    height: 100vh;
+    width: 100vw;
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+.ChauffeurTitle
+{
+    text-align: center;
+    font-size: 30pt;
+    margin-left: 100pt;
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--bleu);
+    text-shadow: 5px 5px 5px var(--orangetrans);
+}
+.ChauffeurContenu
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    margin-left: 200pt;
+}
+.ChauffDiv2
+{
+    margin-left: 150pt;
+}
+.ChauffeurDiv3
+{
+       margin-left: -20pt;
+}

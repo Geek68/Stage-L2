@@ -1,0 +1,102 @@
+:root
+{
+  --orange: #FB7A25;
+  --orangetrans:  rgba(254,172,130,1);
+  --bleu : #2298f9;
+  --bleutrans: rgba(34,152,249,0.09);
+  --blanc:  #FFFFFF;
+  --gris:#D4D6D8;
+}
+.Prev:active
+{
+ animation: anim  0.5s linear infinite;
+}
+@keyframes anim {
+    0%
+    {
+        transform: translateX(0);
+    }
+    50%
+    {
+        transform: translateX(-20pt);
+    }
+    100%
+    {
+        transform: translateX(0);
+    }
+}
+.Next:active
+{
+ animation: anime  0.5s linear infinite;
+}
+@keyframes anime {
+    0%
+    {
+        transform: translateX(0);
+    }
+    50%
+    {
+        transform: translateX(20pt);
+    }
+    100%
+    {
+        transform: translateX(0);
+    }
+}
+
+/* popup Modification chauffeur */
+.ChauffeurBody
+{
+    position: relative;
+}
+.ModifChauffParent
+{
+    position: absolute;
+    top:0;left: 0;right: 0;bottom: 0;
+}
+.deleteChauffParent
+{
+    position: absolute;
+    
+    top:0;left: 0;right: 0;bottom: 0;
+}
+
+
+.ServiceBody{
+    position: relative;
+}
+.ModifServiceParent
+{
+    position: absolute;
+    top:0;left: 0;right: 0;bottom: 0;
+}
+.deleteServiceParent
+{
+    position: absolute;
+    top:0;left: 0;right: 0;bottom: 0;
+}
+.VoitureBody
+{
+     position: relative;
+      
+}
+.ModifVehiculeRAD
+{
+    position: absolute;
+    top:0;left: 0;right: 0;bottom: 0;
+}
+.OrgPopUpParent
+{
+    position: absolute;
+    top:0;left: 0;right: 0;bottom: 0;
+}
+.formContenuReparationDiv2
+{
+    position: relative;
+}
+.MenuReparationParent
+{
+    position: absolute;
+    top: 270px;right: 5px;
+    width: 10%;
+}
